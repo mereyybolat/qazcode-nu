@@ -68,7 +68,7 @@ uv run uvicorn src.mock_server:app --host 127.0.0.1 --port 8000
 ```
 Then run the validation pipeline in a separate terminal:
 ```bash
-uv run python evaluate.py -e http://127.0.0.1:8000/diagnose -d ./data/protocols -n <your_team_name>
+uv run python evaluate.py -e http://127.0.0.1:8000/diagnose -d ./data/test_set -n <your_team_name>
 ```
 `-e`: endpoint (POST request) that will accept the symptoms
 
