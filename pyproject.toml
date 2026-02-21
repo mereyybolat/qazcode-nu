@@ -10,5 +10,6 @@ dependencies = [
     "aiohttp>=3.9.0",
     "fastapi>=0.115.0",
     "uvicorn>=0.32.0",
-    "ipykernel>=7.2.0"
+    "ipykernel>=7.2.0",
+    "openai>=1.0.0"
 ]
